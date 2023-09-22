@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Loading css -->
+    <link href="styles.css" rel="stylesheet" media="all" />
+    <title>Project 3 COP3813 Robbie Salisbury V </title>
+  </head>
+
+  <body>
+    <!-- Title of the quiz-->
+    <h1>Are you an Introvert, Extrovert, or Ambivert?</h1>
+      
+    <!-- Making the quiz-->
+    <form id="quiz">
+      <!-- 1st question -->
+      <h2>Do you prefer talking or listening?</h2>
+      <!-- Image corresponding to the question -->
+      <img src="talkingvslistening.jpg" length="250" width="250">
+      <br />
+      <!-- Answer choices -->
+      <label><input type="radio" name="question1" value="extrovertAnswer">
+        Talking
+      </label><br />
+
+      <label><input type="radio" name="question1" value="introvertAnswer">
+        Listening
+      </label><br />
+        
+    
+      <!-- Question 2 -->
+      <h2>Picture a Friday night. Your friends want to go out for the night. Do you go with your friends or stay home?</h2>
+        
+      <img src="GoingOutVsStayingIn.png" length="250" width="250">
+      <br />
+      <label><input type="radio" name="question2" value="introvertAnswer">
+        I would rather stay home, they'll be fine without me.
+      </label><br />
+      <label><input type="radio" name="question2" value="extrovertAnswer">
+        Count me in! I'm going to have a great time!
+      </label><br />
+      
+      <!-- Question 3 -->
+      <h2>Batman or Superman?</h2>
+
+      <img src="BatmanVsSuperman.png" alt="Batman vs Superman" length="250" width="250">
+      <br />
+      <label><input type="radio" name="question3" value="introvertAnswer">
+        Batman
+      </label><br />
+      <label><input type="radio" name="question3" value="extrovertAnswer">
+        Superman
+      </label><br />
+        
+        
+      <!-- Question 4 -->
+      <h2>What sport would you rather play?</h2>
+      <img src="FootballVsGolf.png" alt="Football vs Golf" length="300" width="300">
+      <br />
+      <label><input type="radio" name="question4" value="introvertAnswer">
+        Golf
+      </label><br />
+      <label><input type="radio" name="question4" value="extrovertAnswer">
+        Football
+      </label><br />
+
+      <!-- Question 5 -->
+      <h2>How do you plan a Birthday Party?</h2>
+      <img src="BirthdayParty.png" alt="Birthday Party" length="250" width="250">
+      <br />
+      <label><input type="radio" name="question5" value="extrovertAnswer">
+        I like to have a giant party with everyone I know invited! 
+      </label><br />
+      <label><input type="radio" name="question5" value="introvertAnswer">
+        I like to have a small party with a few close friends!
+      </label><br />
+
+      <!-- Question 6 -->
+      <h2>If you had a project and had the option to work in a group or work alone, what would you choose?</h2>
+      <img src="GroupVsSolo.png" alt="Group vs solo project" length="250" width="250">
+      <br />
+      <label><input type="radio" name="question6" value="introvertAnswer">
+        If you want something done right, you do it yourself.
+      </label><br />
+      <label><input type="radio" name="question6" value="extrovertAnswer">
+        I could always use more help in a project, maybe there's something they know better than I do.
+      </label><br />
+      
+      <!-- create buttons to submit or start over the quiz -->
+      <button type="submit" id="submit" onclick="result()">Submit</button>
+      <button type="reset" id="reset">Start Over</button>
+    </form>
+      
+      
+    <br />
+
+    <!-- answer box -->
+    <div id="answer">Your result will show up here!</div>
+  </body>
+  <!-- Running the javascript -->
+  <script src="scripts.js"></script>
+</html>
+  

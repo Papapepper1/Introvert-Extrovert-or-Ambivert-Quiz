@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(184, 184, 184);
+  text-align: center;
+}
+h2 {
+  margin: auto;
+}
+
+input {
+  margin: 5px 10px;
+}
+button{
+  font: Arial;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 15px 32px;
+
+}
+#answer {
+  border: solid;
+  background-color: blue;
+}
+
+image{
+  margin-left: auto;
+  display: block;
+}
